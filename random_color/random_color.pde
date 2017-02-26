@@ -7,7 +7,7 @@ PImage res;
 void setup() {
   src = loadImage("medusa.jpg");
   res = createImage(src.width, src.height, RGB);
-  size(src.width, src.height, JAVA2D);
+  size(400, 400, JAVA2D);
 
   //smooth();
   noLoop();
@@ -69,4 +69,3 @@ color findClosestColor(color in) {
   }
   return palette[current];
 }
-

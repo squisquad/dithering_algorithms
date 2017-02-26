@@ -28,7 +28,7 @@ float mfactor = 255.0 / 5;
 void setup() {
   src = loadImage("sky.jpg");
   res = createImage(src.width, src.height, RGB);
-  size(src.width, src.height, JAVA2D);
+  size(400, 400, JAVA2D);
 
   noLoop();
   noStroke();
@@ -93,4 +93,3 @@ color findClosestColor(color in) {
   }
   return palette[current];
 }
-
