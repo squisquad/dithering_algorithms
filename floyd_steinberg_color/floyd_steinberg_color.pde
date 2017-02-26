@@ -7,7 +7,7 @@ void setup() {
   src = loadImage("1.jpg");  
   res = loadImage("1.jpg");
   img = createImage(src.width, src.height, RGB);
-  size(1200, 400, JAVA2D);
+  size(800, 400, JAVA2D);
 
   //smooth();
   //noLoop();
