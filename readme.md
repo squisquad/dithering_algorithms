@@ -1,4 +1,4 @@
-I'm only forking the code of Daniele Piccione
+I'm only forking the code of Daniele Piccoone
 
 ## Dithering algorithms
 Simple Processing implementations of some dithering algorithms
